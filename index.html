@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/confetti-js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Hangman Game</h1>
+        <p>Test your word-guessing skills!</p>
+    </header>
+
+    <!-- Start Game Button -->
+    <div class="start-container">
+        <button id="start-button">Start Game</button>
+    </div>
+
+    <!-- Game Container -->
+    <main class="game-container" style="display: none;">
+        <p id="hint-display">Hint: </p>
+        <img id="hangman-image" src="./assets/images/hangman-0.png" alt="Hangman">
+        <div id="word-display"></div>
+        <div id="wrong-guesses"></div>
+        <div id="keyboard"></div>
+        <button id="restart-button" style="display: none;">Restart Game</button>
+    </main>
+
+    <!-- Confetti Canvas -->
+    <canvas id="confetti-canvas"></canvas>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Hangman Game. Created for learning and fun!</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="/js/script.js"></script>
+</body>
+</html>

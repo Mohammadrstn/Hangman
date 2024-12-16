@@ -1,0 +1,7 @@
+[
+    { "word": "javascript", "hint": "A popular programming language" },
+    { "word": "hangman", "hint": "A classic word-guessing game" },
+    { "word": "browser", "hint": "Used to view web pages" },
+    { "word": "developer", "hint": "Writes code and builds software" },
+    { "word": "algorithm", "hint": "A process for solving problems" }
+]
